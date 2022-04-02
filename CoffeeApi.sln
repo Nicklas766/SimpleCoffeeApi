@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeApi", "CoffeeApi\CoffeeApi.csproj", "{0C709DEA-9B7F-4230-BBDC-28490B711B5F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5B328FCE-4565-4D25-B1BB-C42220CE445D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C709DEA-9B7F-4230-BBDC-28490B711B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C709DEA-9B7F-4230-BBDC-28490B711B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C709DEA-9B7F-4230-BBDC-28490B711B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C709DEA-9B7F-4230-BBDC-28490B711B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B328FCE-4565-4D25-B1BB-C42220CE445D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B328FCE-4565-4D25-B1BB-C42220CE445D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B328FCE-4565-4D25-B1BB-C42220CE445D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B328FCE-4565-4D25-B1BB-C42220CE445D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA14FF5B-7EE6-4E34-9603-C4641E4A803F}
+	EndGlobalSection
+EndGlobal

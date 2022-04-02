@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  coffeeapi:
+    image: ${DOCKER_REGISTRY-}coffeeapi
+    build:
+      context: .
+      dockerfile: CoffeeApi/Dockerfile
+    env_file:
+      - ./localapi.env
+    depends_on:
+      - "db"
+  db:
+    image: mcr.microsoft.com/mssql/server
+    env_file:
+    - ./localdb.env
+    ports:
+      - "1433:1433"
